@@ -2,11 +2,15 @@
 
   <div class="wrapper">
 
+    <a class="site-title"  href="{{ site.baseurl }}/" title="Go Home"><i class="fad fa-leaf"></i></a>
+
     <nav class="site-nav">
+
+
 
       <div class="trigger">
         <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="{{ site.baseurl }}/">blog</a>
+        <a class="page-link" href="{{ site.baseurl }}/">about</a>
 
         {% for page in site.pages %}
           {% if page.title %}

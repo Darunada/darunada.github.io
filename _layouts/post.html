@@ -4,8 +4,32 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y — %H:%M" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <h1 class="post-title">{{ page.title }} <span class="right">{{ page.created | date: "%B %-d, %Y" }}</span></h1>
+    {% if page.meta %}
+      <p class="post-meta">{{ page.meta }} </p>
+    {% endif %}
+
+    <p class="post-meta">
+      {{ page.date | date: "%B %-d, %Y" }}
+      {% if page.author %} • {{ page.author }}{% endif %}
+
+      {% if page.repo_link or page.link %}
+        •
+        {% if page.link %}
+          <a href="{{ page.link}}"><i class="fad fa-link fa-fw" title="View Site"></i></a>
+        {% endif %}
+        {% if page.repo_link %}
+          <a href="{{ page.repo_link}}"><i class="fa fa-fw fa-github" title="View Repo"></i></a>
+        {% endif %}
+      {% endif %}
+
+      {% if page.tags %}
+        •
+        {% for tag in page.tags %}
+          <a href="#{{ tag | slugify }}"> #{{ tag }} </a>
+        {% endfor %}
+      {% endif %}
+    </p>
   </header>
 
   <article class="post-content">

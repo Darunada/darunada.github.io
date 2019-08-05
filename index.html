@@ -1,23 +1,76 @@
 ---
-layout: default
+layout: page
+permalink: /
 ---
 
-<div class="header-bar">
-  <h1>*</h1>
-  <h2>Lea Fairbanks</h2>
-  <hr>
-  <br/>
+<h1 class="post-title">Lea Fairbanks</h1>
+
+<img class="col one right" src="/img/prof_pic.jpg">
+
+<br/>
+
+<p>
+Hi there, I'm Lea.  I'm a Software Engineer at MasterControl in Cottonwood Heights, UT.  I also
+consult part time with Valkoria Software.
+</p>
+
+<p>
+I like to make cool stuff sometimes.  I made this blog because I thought I might like
+writing a little about the stuff I am doing.  I intend to write about tech and code, of course, but
+I will also try to write an adventure blog, and whatever else strikes my fancy.
+</p>
+
+<p>
+	I work mostly in Java, Angular, SQL Server, PHP, and MySQL, but have used many more stacks.
+</p>
+
+<p>
+Thanks for visiting!
+</p>
+
+<br/>
+<hr/>
+<br/>
+<span class="contacticon center">
+<a href="mailto:lea.rae.fairbanks@gmail.com"><i class="fa fa-envelope-square"></i></a>
+<a href="https://github.com/Darunada" target="_blank"><i class="fa fa-github-square"></i></a>
+<a href="https://www.linkedin.com/in/lrfairbanks/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+<a href="https://www.instagram.com/learaefairbanks/" target="_blank"><i class="fa fa-instagram"></i></a>
+</span>
+
+<!--<div class="col three caption">-->
+<!--	You can even add a little note about which of these is the best way to reach you.-->
+<!--</div>-->
+
+<br/>
+<hr/>
+<br/>
+
+<div>
+
+
+	If you would like to give me access to something for some reason, my ssh public key is here.<br/>
+	<div class="copy-group">
+		<input id="ssh-key" readonly
+			   value="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7e68CtZwsif3vjtk/DG3Ijhnwc9/tYWX0E0D8sNs6q44mQOujzDV6EObhiBPpgXU8MfMpT0nv30RoYyYvW/2OI1wkbpjJSD9Qql1x/3dATSZqw0bJnoddXrq4xuF8RtOfyLRsqt7Ox7eRX9obkNJtdBlRh6+feAYKKOn2Qn3mbqy+aBwWTkWgwaDiQm971KdflibQ1LU5E8nbPZNN10xNLtiZs6JPkzEN2mw6lhDF0QG4eQl0BnF7FChYkpbSe2Sy8FM2HjhGUavsxv9GkldoREw6uF5eL1kB1hVypmrp+vfA7hyaHAgLaYF34S2+L5/ZuyygWxnYolBRVC2NHO2X lea@LEA-DESKTOP-MK5"/>
+
+		<a href="#" class="btn btn-default btn-xs copy-btn"  data-clipboard-target="#ssh-key">Copy</a>
+	</div>
+	<br/>
+	<br/>
+
 </div>
 
+<br/>
+<hr/>
+<br/>
 
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
+<div>
+
+	This site was made using Jekyll and is hosted on GitHub Pages.
+
+</div>
+
+<script type="text/javascript">
+	new ClipboardJS('.copy-btn');
+</script>

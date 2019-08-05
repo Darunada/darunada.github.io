@@ -157,6 +157,7 @@ article a {
     font-weight: 100;
 
     &:hover {
+        color: $text-color;
         text-decoration: none;
     }
 }
