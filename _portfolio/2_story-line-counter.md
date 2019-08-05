@@ -1,5 +1,7 @@
 ---
 layout: post
+permalink: /portfolio/story-line-counter
+
 # portfolio tile config
 title: story-line-counter
 description: A tool for counting code changes per SAFE story point.

@@ -1,5 +1,7 @@
 ---
 layout: post
+permalink: /portfolio/namechangr
+
 # portfolio tile config
 title: NameChangr
 description: A website that helps people change their legal names.

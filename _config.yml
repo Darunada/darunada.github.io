@@ -4,8 +4,7 @@ email: lea.rae.fairbanks@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I write neat software.
 baseurl:  # the subpath of your site, e.g. /blog/
-url: https://leafairbanks.com # the base hostname & protocol for your site
-twitter_username: twitter_username
+url: https://leafairbanks.com
 github_username:  darunada
 
 # Build settings
