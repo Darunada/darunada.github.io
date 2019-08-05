@@ -11,8 +11,6 @@ week ago.  The narrative tutorials in the book were especially impressive.
 As every step in the book "Just Worked" I grew more and more impressed, and felt confident
 that I could at least bumble my way through borrow checker errors as I built something.
     
-<img class="col two" src="/img/ferris.png" alt="" title="Ferris the crab"/>
-
 <div class="col two caption">
 	This image can also have a caption. It's like magic. 
 </div>
