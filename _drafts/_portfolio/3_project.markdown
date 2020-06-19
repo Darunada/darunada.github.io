@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Project
+layout: post
 description: a project that redirects to another website
-img:
+img: 
 redirect: https://unsplash.com
 ---
 

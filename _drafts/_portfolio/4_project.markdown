@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Project
+layout: post
 description: another without an image
 img: 
 ---

@@ -1,20 +1,21 @@
 ---
-layout: post
-permalink: /portfolio/story-line-counter
-
-# portfolio tile config
 title: story-line-counter
+date: 2019-08-02 00:00:00 Z
+permalink: "/portfolio/story-line-counter"
+tags:
+- portfolio
+- native
+- rust
+- git
+layout: post
 description: A tool for counting code changes per SAFE story point.
-img:
+img: 
 open_source: true
-
-# portfolio page post config
-meta: Gather information from your repos, then graph it to gain insights on your code changes.
-date: 2019-08-02
+meta: Gather information from your repos, then graph it to gain insights on your code
+  changes.
 link: https://www.leafairbanks.com/story-line-counter
 repo_link: https://github.com/Darunada/story-line-counter
 repo_icon: fa-github
-tags: [portfolio, native, rust, git]
 ---
 
 I am plagued by a problem - how big is a [story point](https://www.scaledagileframework.com/story/)?  It keeps me up 

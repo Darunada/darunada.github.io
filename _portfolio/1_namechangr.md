@@ -1,20 +1,25 @@
 ---
-layout: post
-permalink: /portfolio/namechangr
-
-# portfolio tile config
 title: NameChangr
+date: 2017-06-26 00:00:00 Z
+permalink: "/portfolio/namechangr"
+tags:
+- portfolio
+- web
+- php
+- laravel
+- postgres
+- redis
+- heroku
+- s3
+layout: post
 description: A website that helps people change their legal names.
 img: namechangr.png
 open_source: true
-
-# portfolio page post config
-meta: NameChangr is a full stack web application I built from scratch that helps generate documents for legal name changes.
-date: 2017-06-26
+meta: NameChangr is a full stack web application I built from scratch that helps generate
+  documents for legal name changes.
 link: https://www.namechangr.com
 repo_link: https://github.com/Darunada/namechangr
 repo_icon: fa-github
-tags: [portfolio, web, php, laravel, postgres, redis, heroku, s3]
 ---
 
 <img class="col three" src="/img/portfolio/namechangr/screen-shot.png" alt="NameChangr Pick a Court Location Page" 

@@ -1,28 +1,25 @@
-# Site settings
+---
 title: Lea Fairbanks
-email: lea.rae.fairbanks@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I write neat software.
-baseurl:  # the subpath of your site, e.g. /blog/
-url: https://leafairbanks.com
-github_username:  darunada
-
-# Build settings
-markdown: kramdown
-
-highlighter: rouge
-
-# Pagination
-paginate: 15
-paginate_path: "/blog/page:num/"
-
-
+timezone: UTC
 collections:
   portfolio:
+    title: Portfolio
     output: true
-    permalink: /portfolio/:path/
-#  adventures:
-#    output: true
-#    permalink: /adventures/:path/
+    permalink: "/portfolio/:path/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: lea.rae.fairbanks@gmail.com
+description: 'I write neat software.
 
-
+'
+baseurl: 
+url: https://leafairbanks.com
+github_username: darunada
+markdown: kramdown
+highlighter: rouge
+paginate: 15
+paginate_path: "/blog/page:num/"

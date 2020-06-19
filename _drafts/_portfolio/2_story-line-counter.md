@@ -1,6 +1,6 @@
 ---
+title: Gathering git analytics with Rust
 layout: post
-title: Gathering git analytics with Rust 
 description: A utility to collect statistics about SAFE story points.
 img: 
 open_source: true
