@@ -12,14 +12,16 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: lea.rae.fairbanks@gmail.com
-description: 'I write neat software.
-
-'
-baseurl: 
+email: hello@leaflab.sh
+description: 
 url: https://leafairbanks.com
 github_username: darunada
 markdown: kramdown
 highlighter: rouge
 paginate: 15
 paginate_path: "/blog/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
